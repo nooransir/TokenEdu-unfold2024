@@ -1,37 +1,53 @@
-## Create Aptos Dapp Token minting dapp Template
+## TokenEdu - Web3 E-Learning Platform
 
-The Token minting dapp template provides an end-to-end Fungible Asset minting dapp with a beautiful pre-made UI users can quickly adjust and deploy into a live server.
+TokenEdu is a Web3 E-Learning Platform application that combines blockchain technology with education, allowing users to watch educational videos and earn rewards. It features a fully functional dApp with an intuitive UI and smart contract integration for reward distribution.  
+
+---
+
+## Learn About the Web3 E-Learning Platform  
+
+To get started with the Web3 E-Learning Platform and explore its functionality, check out the [Web3 E-Learning Platform Documentation](#) (Add a documentation link here if available).  
+
+---
+
+## The Platform Offers:  
+
+- **Educational Video Page** - Users can browse and watch videos.  
+- **Reward Page** - Tracks rewards earned by completing courses.  
+- **Dashboard** - Displays user activity, including courses completed and rewards accumulated.  
+
+---
+
+## Tools and Technologies Used  
+
+- React framework  
+- Vite development tool  
+- shadcn/ui + Tailwind CSS for styling  
+- Aptos TS SDK for blockchain integration  
+- Aptos Wallet Adapter for wallet connectivity  
+- Node.js for backend logic  
+
+---
+
+## What Commands Are Available?  
+
+This platform uses [aptos-cli npm package](https://github.com/aptos-labs/aptos-cli) to manage blockchain functionalities. Below are some built-in npm scripts:  
+
+- `npm run move:publish` - Publishes the Move smart contract  
+- `npm run move:test` - Runs Move unit tests  
+- `npm run move:compile` - Compiles the Move smart contract  
+- `npm run move:upgrade` - Upgrades the Move smart contract  
+- `npm run dev` - Starts the development server locally  
+- `npm run deploy` - Deploys the platform to Vercel  
+
+For more commands, run `npx aptos` to see a list of all available CLI options.  
+
+---
+
+## Features of the Platform  
+
+- **Blockchain Rewards**: Users earn rewards via smart contracts for watching videos.  
+- **Decentralized Learning**: Secure and transparent reward distribution using blockchain.  
+- **Responsive UI**: A seamless and modern design for desktop and mobile.  
 
 
-## Read the Token minting dapp template docs
-To get started with the Token minting dapp template and learn more about the template functionality and usage, head over to the [Token minting dapp template docs](https://aptos.dev/create-aptos-dapp/templates/fungible-asset) 
-
-## The Fungible Asset template provides 3 pages:
-
-- **Public Mint Fungible Asset Page** - A page for the public to mint Fungible Assets.
-- **Create Fungible Asset page** - A page for creating new asset. This page is not accessible on production.
-- **My Fungible Assets page** - A page to view all the assets created under the current Move module (smart contract). This page is not accessible on production.
-
-## What tools the template uses?
-
-- React framework
-- Vite development tool
-- shadcn/ui + tailwind for styling
-- Aptos TS SDK
-- Aptos Wallet Adapter
-- Node based Move commands
-
-## What Move commands are available?
-
-The tool utilizes [aptos-cli npm package](https://github.com/aptos-labs/aptos-cli) that lets us run Aptos CLI in a Node environment.
-
-Some commands are built-in the template and can be ran as a npm script, for example:
-
-- `npm run move:publish` - a command to publish the Move contract
-- `npm run move:test` - a command to run Move unit tests
-- `npm run move:compile` - a command to compile the Move contract
-- `npm run move:upgrade` - a command to upgrade the Move contract
-- `npm run dev` - a command to run the frontend locally
-- `npm run deploy` - a command to deploy the dapp to Vercel
-
-For all other available CLI commands, can run `npx aptos` and see a list of all available commands.
