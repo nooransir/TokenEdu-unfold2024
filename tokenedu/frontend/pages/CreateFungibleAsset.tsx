@@ -72,7 +72,7 @@ export function CreateFungibleAsset() {
           name,
           symbol,
           decimal: Number(decimal),
-          icon URL,
+          iconURL,
           projectURL,
           mintFeePerFA,
           mintForMyself,
@@ -118,7 +118,7 @@ export function CreateFungibleAsset() {
             </WarningAlert>
           )}
 
-          <UploadSpinner on={isUploading} />
+         <UploadSpinner on={isUploading} />
 
           <Card>
             <CardHeader>

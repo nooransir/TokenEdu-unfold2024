@@ -12,7 +12,6 @@ export const config: Config = {
     name: "TokenEDU",
     image: Placeholder1,
   },
-
   ourStory: {
     title: "TokenEDU",
     description: `This is the description`,
